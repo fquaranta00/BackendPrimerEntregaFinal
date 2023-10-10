@@ -1,0 +1,134 @@
+[
+	{
+		"id": "6dfb5b8e-1d3a-44aa-b00a-e0a1c001f49e",
+		"title": "morrones",
+		"description": "morrones del mejor",
+		"price": 2,
+		"thumbnail": "https://www.google.com",
+		"code": "12433212",
+		"stock": 8,
+		"status": true,
+		"category": "Verduras"
+	},
+	{
+		"id": "ea8a89d8-d9db-4ee1-86b7-16fb8b8fcdd7",
+		"title": "peras",
+		"description": "peras de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": "1133212",
+		"stock": 4,
+		"status": true,
+		"category": "Frutas"
+	},
+	{
+		"id": "cf32d9b7-3e07-4276-bb3d-9a977f9de57f",
+		"title": "nuez",
+		"description": "nuez del mejor",
+		"price": 5,
+		"thumbnail": "https://www.google.com",
+		"code": "1139212",
+		"stock": 42,
+		"status": true,
+		"category": "Frutos Secos"
+	},
+	{
+		"id": "9ff696f1-1875-4670-8525-7e1844e91884",
+		"title": "garrapiñada",
+		"description": "garrapiñada de las mejores",
+		"price": 2,
+		"thumbnail": "https://www.google.com",
+		"code": "9133212",
+		"stock": 234,
+		"status": true,
+		"category": "Dulces"
+	},
+	{
+		"id": "d9f319ae-3aae-47a2-bf17-76c352c075aa",
+		"title": "lechuga",
+		"description": "lechuga de la mejor",
+		"price": 5,
+		"thumbnail": "https://www.google.com",
+		"code": "8833212",
+		"stock": 67,
+		"status": true,
+		"category": "Verduras"
+	},
+	{
+		"id": "b11f3285-332d-4d7c-b99c-3a2c982c2bd2",
+		"title": "pan",
+		"description": "pan del mejor",
+		"price": 2,
+		"thumbnail": "https://www.google.com",
+		"code": "1673212",
+		"stock": 8,
+		"status": true,
+		"category": "Panadería"
+	},
+	{
+		"id": "cf8137a7-af9c-4765-849b-4e18f8717e64",
+		"title": "lentejas",
+		"description": "lentejas de las mejores",
+		"price": 9,
+		"thumbnail": "https://www.google.com",
+		"code": "1136412",
+		"stock": 56,
+		"status": true,
+		"category": "Legumbres"
+	},
+	{
+		"id": "4db4e9f0-d399-4d41-a25b-bc9ad9839461",
+		"title": "roquefort",
+		"description": "roquefort del mejor",
+		"price": 555,
+		"thumbnail": "https://www.google.com",
+		"code": "1233292",
+		"stock": 6,
+		"status": true,
+		"category": "Quesos"
+	},
+	{
+		"id": "17b3a87e-c61a-4ca1-a85b-4973cfc27b16",
+		"title": "mandarina",
+		"description": "mandarinas de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": "1133226",
+		"stock": 4,
+		"status": true,
+		"category": "Frutas"
+	},
+	{
+		"id": "e1fffd94-1971-4972-a91e-a7a32b8f33cc",
+		"title": "Salames",
+		"description": "werqerqerd",
+		"price": 330,
+		"thumbnail": "https://ejemplo.com/imagen.jpg",
+		"code": "P12345",
+		"stock": 30,
+		"status": true,
+		"category": "Embutidos"
+	},
+	{
+		"id": "1a0dc3bb-0ba6-4fcb-835a-bd16a62f7d3d",
+		"title": "rabanito",
+		"description": "rabanito de la mejor",
+		"price": 5,
+		"thumbnail": "https://www.google.com",
+		"code": "8233212",
+		"stock": 7,
+		"status": true,
+		"category": "Verduras"
+	},
+	{
+		"id": "88aece07-d45d-4834-a13f-e28504ba8f22",
+		"title": "mango",
+		"description": "mango de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": "1133299",
+		"stock": 4,
+		"status": true,
+		"category": "Frutas"
+	}
+]

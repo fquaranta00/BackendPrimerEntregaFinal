@@ -1,0 +1,27 @@
+[
+	{
+		"id": "2a3db1fa-b479-43a6-8f65-0d5cae212e0a",
+		"products": [
+			{
+				"productId": "1534234",
+				"quantity": 10
+			},
+			{
+				"productId": "1534234",
+				"quantity": 5
+			},
+			{
+				"productId": "1514234",
+				"quantity": 102
+			},
+			{
+				"productId": "1114234",
+				"quantity": 51
+			},
+			{
+				"productId": 1114234,
+				"quantity": 51
+			}
+		]
+	}
+]
