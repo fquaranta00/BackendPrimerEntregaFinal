@@ -1,6 +1,5 @@
 import { Router } from "express";
-import { v4 as uuidv4 } from 'uuid';
-import { getJSONFromFile, saveJSONToFile } from '../utils.js';
+import { getNewId, getJSONFromFile, saveJSONToFile } from '../utils.js';
 
 const cartRouter = Router();
 const cartPath = './carts.json'; // Asegúrate de que esta sea la ruta correcta
@@ -34,10 +33,9 @@ cartRouter.get('/carts/:cartId', async (req, res) => {
 cartRouter.post('/carts', async (req, res) => {
     try {
         const newCart = {
-            id: uuidv4(),
+            id: getNewId(), // Utilizamos la función para obtener un nuevo ID
             products: []
         };
-        // console.log("entrando a carts");
         const carts = await getJSONFromFile(cartPath);
         carts.push(newCart);
         await saveJSONToFile(cartPath, carts);

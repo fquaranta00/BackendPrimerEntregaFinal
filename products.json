@@ -130,5 +130,16 @@
 		"stock": 4,
 		"status": true,
 		"category": "Frutas"
+	},
+	{
+		"id": "5d5d3fe6-7e7c-4112-8f58-55c4cd5c0acc",
+		"title": "pepas",
+		"description": "pepas de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": "1133999",
+		"stock": 40,
+		"status": true,
+		"category": "galletas"
 	}
 ]
