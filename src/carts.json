@@ -30,6 +30,23 @@
 			{
 				"productId": "12312315",
 				"quantity": 10
+			},
+			{
+				"productId": "12392315",
+				"quantity": 1
+			},
+			{
+				"productId": "00012315",
+				"quantity": 10
+			}
+		]
+	},
+	{
+		"id": "b738cae5-7a61-4eb5-b117-98b0969dbba4",
+		"products": [
+			{
+				"productId": "00012365",
+				"quantity": 20
 			}
 		]
 	}

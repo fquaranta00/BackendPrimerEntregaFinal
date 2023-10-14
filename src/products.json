@@ -1,27 +1,5 @@
 [
 	{
-		"id": "6dfb5b8e-1d3a-44aa-b00a-e0a1c001f49e",
-		"title": "morrones",
-		"description": "morrones del mejor",
-		"price": 2,
-		"thumbnail": "https://www.google.com",
-		"code": "12433212",
-		"stock": 8,
-		"status": true,
-		"category": "Verduras"
-	},
-	{
-		"id": "ea8a89d8-d9db-4ee1-86b7-16fb8b8fcdd7",
-		"title": "peras",
-		"description": "peras de las mejores",
-		"price": 25,
-		"thumbnail": "https://www.google.com",
-		"code": "1133212",
-		"stock": 4,
-		"status": true,
-		"category": "Frutas"
-	},
-	{
 		"id": "cf32d9b7-3e07-4276-bb3d-9a977f9de57f",
 		"title": "nuez",
 		"description": "nuez del mejor",
@@ -38,7 +16,7 @@
 		"description": "garrapiñada de las mejores",
 		"price": 2,
 		"thumbnail": "https://www.google.com",
-		"code": "9133212",
+		"code": "9999902",
 		"stock": 234,
 		"status": true,
 		"category": "Dulces"
@@ -141,5 +119,69 @@
 		"stock": 40,
 		"status": true,
 		"category": "galletas"
+	},
+	{
+		"id": "749b6603-2210-44d8-adc6-255f98c81fa3",
+		"title": "pasas",
+		"description": "pasas de las mejores",
+		"price": 25,
+		"thumbnail": "https://www.google.com",
+		"code": "1133242",
+		"stock": 4,
+		"status": true,
+		"category": "Frutas secas"
+	},
+	{
+		"id": "8774620e-d68e-4660-8468-a6565db7db9a",
+		"title": "damascos",
+		"description": "damsacos de las mejores",
+		"code": "0133242",
+		"price": 25,
+		"status": true,
+		"stock": 410,
+		"category": "Frutas",
+		"thumbnail": "https://www.google.com"
+	},
+	{
+		"id": "86775617-c68a-49ea-8aeb-b3f129987335",
+		"title": "ciruelas",
+		"description": "ciruelas de las mejores",
+		"code": "0033242",
+		"price": 25,
+		"status": true,
+		"stock": 40,
+		"category": "Frutas"
+	},
+	{
+		"id": "225c5af0-63c3-4b34-904b-29bbf40a7efa",
+		"title": "frutillas",
+		"description": "frutillas del mejor",
+		"code": "12430992",
+		"price": 2,
+		"status": true,
+		"stock": 8,
+		"category": "Frutas",
+		"thumbnail": "https://www.google.com"
+	},
+	{
+		"id": "39056e37-a008-402f-a8ff-749f93b61e42",
+		"title": "frambuesas",
+		"description": "frambuesas del mejor",
+		"code": "12439992",
+		"price": 2,
+		"status": true,
+		"stock": 8,
+		"category": "Frutas"
+	},
+	{
+		"id": "186d0206-f261-49e5-9023-b95dac3a37e8",
+		"title": "lechuga",
+		"description": "morriones del mejor",
+		"code": "12433292",
+		"price": 2,
+		"status": true,
+		"stock": 8,
+		"category": "Verduras",
+		"thumbnail": "https://www.google.com"
 	}
 ]
