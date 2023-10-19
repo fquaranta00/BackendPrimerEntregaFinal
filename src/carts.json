@@ -21,6 +21,10 @@
 			{
 				"productId": 1114234,
 				"quantity": 51
+			},
+			{
+				"productId": "1534239",
+				"quantity": 4
 			}
 		]
 	},
@@ -47,6 +51,19 @@
 			{
 				"productId": "00012365",
 				"quantity": 20
+			},
+			{
+				"productId": "cf32d9b7-3e07-4276-bb3d-9a977f9de57f",
+				"quantity": 3
+			}
+		]
+	},
+	{
+		"id": "45318ce3-0f7e-4421-aa45-8f7af52632bf",
+		"products": [
+			{
+				"productId": "1aeb8b61-a907-4815-a77a-31bfe2275af6",
+				"quantity": 3
 			}
 		]
 	}

@@ -33,17 +33,6 @@
 		"category": "Verduras"
 	},
 	{
-		"id": "b11f3285-332d-4d7c-b99c-3a2c982c2bd2",
-		"title": "pan",
-		"description": "pan del mejor",
-		"price": 2,
-		"thumbnail": "https://www.google.com",
-		"code": "1673212",
-		"stock": 8,
-		"status": true,
-		"category": "Panadería"
-	},
-	{
 		"id": "cf8137a7-af9c-4765-849b-4e18f8717e64",
 		"title": "lentejas",
 		"description": "lentejas de las mejores",
@@ -132,56 +121,14 @@
 		"category": "Frutas secas"
 	},
 	{
-		"id": "8774620e-d68e-4660-8468-a6565db7db9a",
-		"title": "damascos",
-		"description": "damsacos de las mejores",
-		"code": "0133242",
-		"price": 25,
-		"status": true,
-		"stock": 410,
-		"category": "Frutas",
-		"thumbnail": "https://www.google.com"
-	},
-	{
-		"id": "86775617-c68a-49ea-8aeb-b3f129987335",
-		"title": "ciruelas",
-		"description": "ciruelas de las mejores",
-		"code": "0033242",
-		"price": 25,
-		"status": true,
-		"stock": 40,
-		"category": "Frutas"
-	},
-	{
-		"id": "225c5af0-63c3-4b34-904b-29bbf40a7efa",
-		"title": "frutillas",
-		"description": "frutillas del mejor",
-		"code": "12430992",
+		"id": "1aeb8b61-a907-4815-a77a-31bfe2275af6",
+		"title": "papas",
+		"description": "papas del mejor",
+		"code": "1673212001000",
 		"price": 2,
 		"status": true,
 		"stock": 8,
-		"category": "Frutas",
-		"thumbnail": "https://www.google.com"
-	},
-	{
-		"id": "39056e37-a008-402f-a8ff-749f93b61e42",
-		"title": "frambuesas",
-		"description": "frambuesas del mejor",
-		"code": "12439992",
-		"price": 2,
-		"status": true,
-		"stock": 8,
-		"category": "Frutas"
-	},
-	{
-		"id": "186d0206-f261-49e5-9023-b95dac3a37e8",
-		"title": "lechuga",
-		"description": "morriones del mejor",
-		"code": "12433292",
-		"price": 2,
-		"status": true,
-		"stock": 8,
-		"category": "Verduras",
+		"category": "Panadería",
 		"thumbnail": "https://www.google.com"
 	}
 ]

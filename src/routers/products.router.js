@@ -1,5 +1,5 @@
 import { Router } from "express";
-import ProductManager from '../utils.js';
+import ProductManager from '../productManager.js';
 const productsRouter = Router();
 
 
@@ -10,12 +10,12 @@ productsRouter.get('/products', async (req, res) => {
         const products = await ProductManager.getJSONFromFile();
 
         if (limit !== null) {
-            res.json(products.slice(0, limit));
+            res.status(200).json(products.slice(0, limit));
         } else {
-            res.json(products);
+            res.status(200).json(products);
         }
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(404).json({ error: error.message });
     }
 });
 
@@ -24,9 +24,9 @@ productsRouter.get('/products/:productId', async (req, res) => {
     try {
         const { productId } = req.params;
         const product = await ProductManager.getProductsById(productId);
-        res.json(product);
+        res.status(200).json(product);
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(404).json({ error: error.message });
     }
 });
 
@@ -34,10 +34,11 @@ productsRouter.get('/products/:productId', async (req, res) => {
 productsRouter.post('/products', async (req, res) => {
     try {
         const product = req.body;
-        await ProductManager.addProduct(product);
-        res.json({ message: 'Producto agregado correctamente' });
+        const addedProduct = await ProductManager.addProduct(product); // Obtener el producto completo
+        const { id } = addedProduct; // Obtener el ID del producto
+        res.status(200).json({ message: `Producto ID: ${id}, agregado correctamente.` });
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(404).json({ error: error.message });
     }
 });
 
@@ -56,9 +57,9 @@ productsRouter.put('/products/:productId', async (req, res) => {
         }
 
         const updatedProduct = await ProductManager.updateProduct(productId, updateFields);
-        res.json(updatedProduct);
+        res.status(200).json(updatedProduct);
     } catch (error) {
-        res.status(400).json({ error: error.message });
+        res.status(404).json({ error: error.message });
     }
 });
 
@@ -67,9 +68,9 @@ productsRouter.delete('/products/:productId', async (req, res) => {
     try {
         const { productId } = req.params;
         const result = await ProductManager.deleteProduct(productId);
-        res.json({ message: result });
+        res.status(200).json({ message: result });
     } catch (error) {
-        res.status(500).json({ error: error.message });
+        res.status(404).json({ error: error.message });
     }
 });
 
